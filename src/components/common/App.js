@@ -26,7 +26,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    fetch("https://www.reddit.com/r/KDRAMA.json")
+    fetch("https://www.reddit.com/r/india.json")
       .then(res => res.json())
       .then(data => {
         console.log("dataaaa:", data);
